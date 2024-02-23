@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.divSup{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 3px;
+    justify-content: center;
+    max-width: 800px;
+    max-height: 100vh;
+}
+
+.div-item {
+    width: 85px;
+    height: 85px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+
+
+#createGrid{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
+
+#resetGrid{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
+
+#resizeGrid{
+    margin-top: 20px;
+    width: 100px;
+    height: 20px;
+    align-self: center;
+}
